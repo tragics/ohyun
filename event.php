@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta name="Generator" content="ATOM" />
+  <meta name="Author" content="Hardboiledwonderboy, tragics@ohyun.ms.kr" />
+  <meta name="Keywords" content="오현중학교, Ohyun middle school" />
+  <meta name="Description" content="오현중학교, 오현중학교 홈페이지, Ohyun, Ohyun middle school homepage" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>오현중학교 학사일정</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="ohyun.gcal.eventlist.js"></script>
+
+  <style type="text/css">
+@import url('//fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+ul, li, .txt {list-style-type:none;
+font-size: 90%;
+font-family: "Nanum Gothic", "맑은 고딕", "Malgun";
+letter-spacing: -0.1em;
+line-height: 150%;
+}
+
+h3 {font-family: "Nanum Gothic", "맑은 고딕", "Malgun";
+font-size: 16px;
+color: #1d1d1d;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+text-decoration: none; color: #1d1d1d;
+}
+
+a svg:hover #description { fill: #0064ff; }
+a svg:hover #location { fill: #cd1039; }
+a svg #description, a svg #location {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+svg {
+  display: inline;
+  padding: 2px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: -10px;
+}
+
+.chips {
+display: inline;
+vertical-align: baseline;
+letter-spacing: 0;
+}
+
+.chips-text {
+background-color: #4fc3f7 !important;
+margin-right: 10px;
+padding: 3px 3px 2px;
+display: inline;
+font-size: 80%;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+border-radius: .25em;
+}
+
+.chips-red {
+background-color: #d9534f;
+border-radius: 1em;
+width: 20px;
+padding: 2px;
+vertical-align: middle;
+margin-left: 10px;
+}
+
+.chips-lime {
+background-color: #5cb85c;
+border-radius: 1em;
+width: 20px;
+padding: 2px;
+vertical-align: middle;
+margin-left: 10px;
+}
+
+.divider {
+margin: 3px 0px 4px;
+height: 1px;
+overflow: hidden;
+background-color: #e0e0e0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 20px auto;
+  padding: 10px 10px 20px 10px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 50%;
+  overflow: auto;
+}
+
+.description-link {
+  display: inline;
+  vertical-align: baseline;
+  letter-spacing: 0;
+  background-color: #4fc3f7 !important;
+  margin-right: 0px;
+  padding: 2px;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: .25em;
+}
+
+.popup a { color: #fff; }
+.popup ol li {list-style-type: decimal; font-size: 14px;}
+.popup ul li {list-style-type: disc; font-size: 14px;}
+
+</style>
+
+</head>
+
+<body>
+<div style="padding-left: 20px; padding-right: 20px;">
+<div><h3><a href="http://ohyun.jje.ms.kr/ohyun-m/22017/sub" target="_parent">학사일정</a></h3></div>
+<div id="gcaleventlist"><span class="txt">학사일정을 불러오고 있습니다. 학사일정이 제대로 보이지 않는다면 새로고침(F5)을 눌러 주세요.</span></div>
+</div>
+</body>
+</html>
