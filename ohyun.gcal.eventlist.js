@@ -1,6 +1,6 @@
 /*
 ohyun.middleschool.hompage.only
-Hardboiled.wonderboy, Hardboiledwonderboy@gmail.com, tragics@ohyun.ms.kr
+Hardboiled.wonderboy, hardboiledwonderboy@gmail.com, tragics@ohyun.ms.kr
 */
 
 /*var.for.google.calendar.API*/
@@ -17,7 +17,7 @@ today = year + '-' + (month<10 ? '0' : '') + month + '-' + (day<10 ? '0' : '') +
 /*
 jquery.load.google.calendar.eventlist
 -------------------------------------
-Hardboiled.wonderboy, Hardboiledwonderboy@gmail.com, tragics@ohyun.ms.kr
+Hardboiled.wonderboy, hardboiledwonderboy@gmail.com, tragics@ohyun.ms.kr
 */
 
 $.getGcalEvent = function(gcalId, eventNum, target) {
