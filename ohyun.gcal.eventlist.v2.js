@@ -35,7 +35,7 @@ $.getGcalEvent = function(gcalId, eventNum, target) {
             var idNum = i+1;
             if(item.start.date) {
               var startTime = item.start.date, sd = new Date(startTime);
-              console.log(sd);
+              console.log(getMonth(sd));
             }
             else {
               var startDateTime = item.start.dateTime;
