@@ -56,11 +56,9 @@ $.getGcalEvent = function(gcalId, eventNum, target) {
               if(sdt1 == edt1) eventTime = sdt1.substr(5,5) + '(' + sdt2 + '~' + edt3 + ')';
               else eventTime = sdt1.substr(5,5) + '(' + sdt2 + ')~' + edt2 + '(' + edt3 + ')';
             }
-            var monStyle = sd.getMonth(); console.log(monStyle);
+            var monStyle = sd.getMonth();
             if(monStyle == 11) monStyle = 1; else monStyle = parseInt((monStyle+1)/3) + 1;
-            console.log(monStyle);
-            console.log(eventTime);
-
+            
             //Load description
             if(item.description) {
               description = description.replace(/href/gi,'class="description-link" target="_parent" href');
