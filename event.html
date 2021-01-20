@@ -10,7 +10,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>오현중학교 학사일정</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="ohyun.gcal.eventlist.js"></script>
+  <script src="ohyun.gcal.eventlist.v2.js"></script>
+  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script>// SDK.init
+    Kakao.init('82e32fb565a4432c91617a1b09fa6d41');</script>
 
   <style type="text/css">
 @import url('//fonts.googleapis.com/earlyaccess/nanumgothic.css');
@@ -54,13 +57,8 @@ svg {
 display: inline;
 vertical-align: baseline;
 letter-spacing: 0;
-}
-
-.chips-text {
-background-color: #4fc3f7 !important;
 margin-right: 10px;
 padding: 3px 3px 2px;
-display: inline;
 font-size: 80%;
 line-height: 1;
 color: #fff;
@@ -69,22 +67,20 @@ white-space: nowrap;
 border-radius: .25em;
 }
 
-.chips-red {
-background-color: #d9534f;
-border-radius: 1em;
-width: 20px;
-padding: 2px;
-vertical-align: middle;
-margin-left: 10px;
+.chips-1 {
+background-color: #5e7e9b !important; /*winter is comming*/
 }
 
-.chips-lime {
-background-color: #5cb85c;
-border-radius: 1em;
-width: 20px;
-padding: 2px;
-vertical-align: middle;
-margin-left: 10px;
+.chips-2 {
+background-color: #b2e619 !important; /*spring spring*/
+}
+
+.chips-3 {
+background-color: #4fc3f7 !important; /*hot summer*/
+}
+
+.chips-4 {
+background-color: #A0522D !important; /*awesome autumn*/
 }
 
 .divider {
@@ -165,5 +161,19 @@ background-color: #e0e0e0;
 <div><h3><a href="http://ohyun.jje.ms.kr/ohyun-m/22017/sub" target="_parent">학사일정</a></h3></div>
 <div id="gcaleventlist"><span class="txt">학사일정을 불러오고 있습니다. 학사일정이 제대로 보이지 않는다면 새로고침(F5)을 눌러 주세요.</span></div>
 </div>
+<!--
+<a id="channel-add-button" href="#" onclick="void addChannel();">
+  <img
+    src="https://developers.kakao.com/tool/resource/static/img/button/channel/add/channel_add_small.png"
+  />
+</a>
+<script type="text/javascript">
+  function addChannel() {
+    Kakao.Channel.addChannel({
+      channelPublicId: '_xdbJFK',
+    })
+  }
+</script>
+//-->
 </body>
 </html>
