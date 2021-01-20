@@ -69,7 +69,7 @@ $.getGcalEvent = function(gcalId, eventNum, target) {
             //Load location
             if(item.location) var location = '<a href="http://maps.google.com/maps?q=' + encodeURI(item.location) + '" target="_blank" title="[새창] ' + item.location + '"><svg fill="#a4a4a4" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path id="location" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>'; else location = '';
             //Print event
-            printEvent += '<li><span class="chips chips-text">' + eventTime.replace(/-/gi, "/") + '</span><span style="vertical-align: baseline">' + eventTitle + description + location + '</span></li><li class="divider"></li>';
+            printEvent += '<li><span class="chips chips-' + monStyle +'">' + eventTime.replace(/-/gi, "/") + '</span><span style="vertical-align: baseline">' + eventTitle + description + location + '</span></li><li class="divider"></li>';
             $(target).html(printEvent);
           });
         }
