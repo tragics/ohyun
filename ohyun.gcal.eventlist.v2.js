@@ -57,7 +57,7 @@ $.getGcalEvent = function(gcalId, eventNum, target) {
               else eventTime = sdt1.substr(5,5) + '(' + sdt2 + ')~' + edt2 + '(' + edt3 + ')';
             }
             var monStyle = sd.getMonth();
-            if(monStyle == 11) monStyle = 1; else monStyle = parseInt(monStyle/3) + 1;
+            if(monStyle == 11) monStyle = 1; else monStyle = parseInt(monStyle +1 / 3) + 1;
             console.log(monStyle);
             console.log(eventTime);
 
